@@ -5,4 +5,4 @@ hours = 2 # The value represents number of hours
 seconds = hours * 3600
 
 # Print the result in the required formart
-print(f"{ours} hours(s) is {seconds} seconds.")
+print(f"{hours} hours(s) is {seconds} seconds.")
