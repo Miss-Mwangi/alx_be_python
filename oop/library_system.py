@@ -23,7 +23,7 @@ class PrintBook(Book):
         self.page_count = page_count #PrintBook specific attribute
 
     def __str__(self):
-        return f"PrntBook: {self.title} by {self.author}, Page Count: {self.page_count}"
+        return f"PrintBook: {self.title} by {self.author}, Page Count: {self.page_count}"
 
 # Composition class - Library
 class Library:
